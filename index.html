@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore courses and find the right learning path with YSSE.">
+    <meta name="theme-color" content="#087b55">
+
+    <title>Explore Courses | YSSE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#" class="brand" aria-label="YSSE home">
+                <img src="images/ysse-logo.png" alt="YSSE — Stage of Innovation" class="brand-logo">
+            </a>
+
+            <span class="header-label">LEARNING &amp; DEVELOPMENT</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="eyebrow">
+                        <span class="eyebrow-dot"></span>
+                        LEARN <i>·</i> GROW <i>·</i> LEAD
+                    </span>
+
+                    <h1 id="hero-title">
+                        Explore courses.<br>
+                        <span>Expand your world.</span>
+                    </h1>
+
+                    <p>
+                        Discover learning opportunities, develop practical skills,
+                        and take the next step towards your personal and
+                        professional growth.
+                    </p>
+
+                    <a href="#courses" class="hero-button">
+                        Explore courses <span aria-hidden="true">↘</span>
+                    </a>
+
+                    <div class="hero-note">
+                        <span class="note-line"></span>
+                        A little learning can open a world of possibilities.
+                    </div>
+                </div>
+
+                <div class="hero-art" aria-hidden="true">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="art-spark spark-one">✳</div>
+                    <div class="art-spark spark-two">✦</div>
+
+                    <div class="art-panel">
+                        <div class="panel-top">
+                            <span class="panel-mark">Y.</span>
+                            <span>YOUR NEXT CHAPTER</span>
+                        </div>
+
+                        <div class="panel-illustration">
+                            <div class="book book-back"></div>
+                            <div class="book book-front">
+                                <span>KNOWLEDGE</span>
+                                <b>↗</b>
+                            </div>
+                            <div class="book-leaf"></div>
+                        </div>
+
+                        <strong>Learn something<br>meaningful.</strong>
+
+                        <div class="panel-progress">
+                            <span></span>
+                        </div>
+
+                        <small>GROW AT YOUR OWN PACE</small>
+                    </div>
+
+                    <span class="floating-word word-grow">GROW</span>
+                    <span class="floating-word word-create">CREATE</span>
+                </div>
+            </div>
+
+            <div class="hero-bottom-line"></div>
+        </section>
+
+        <section class="courses-section" id="courses" aria-labelledby="courses-title">
+
+            <div class="section-heading">
+                <span class="section-label">FIND YOUR LEARNING PATH</span>
+
+                <h2 id="courses-title">
+                    Explore Our <span>Courses</span>
+                </h2>
+
+                <p>
+                    Search for a course or use the filters to find
+                    the learning opportunity that suits you.
+                </p>
+            </div>
+
+            <div class="search-area">
+                <label for="searchInput">SEARCH COURSES</label>
+
+                <div class="search-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                        <path d="m16 16 4.2 4.2"></path>
+                    </svg>
+
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Enter a course title..."
+                        autocomplete="off"
+                        aria-label="Search courses by title"
+                    >
+
+                    <span class="search-hint">⌕</span>
+                </div>
+            </div>
+
+            <div class="filter-panel">
+                <div class="filter-heading">
+                    <div>
+                        <span class="filter-label">REFINE YOUR SEARCH</span>
+                        <h3>Find what you need</h3>
+                    </div>
+
+                    <button type="button" id="clearFilters" class="reset-button">
+                        <span aria-hidden="true">↺</span> Clear filters
+                    </button>
+                </div>
+
+                <div class="filter-controls">
+
+                    <div class="filter-group">
+                        <label for="categoryFilter">Course category</label>
+
+                        <div class="select-wrap">
+                            <select id="categoryFilter">
+                                <option value="all">All Categories</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Programming">Programming</option>
+                                <option value="Graphic Design">Graphic Design</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Data Science">Data Science</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="levelFilter">Difficulty level</label>
+
+                        <div class="select-wrap">
+                            <select id="levelFilter">
+                                <option value="all">All Levels</option>
+                                <option value="Beginner">Beginner</option>
+                                <option value="Intermediate">Intermediate</option>
+                                <option value="Advanced">Advanced</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="course-heading">
+                <div>
+                    <span class="section-label">LEARNING OPPORTUNITIES</span>
+                    <h3>Available Courses</h3>
+                </div>
+
+                <p id="resultsCount" aria-live="polite">
+                    Showing all courses
+                </p>
+            </div>
+
+            <div class="course-grid" id="courseContainer" aria-live="polite"></div>
+
+            <div class="no-results" id="noResults" hidden>
+                <div class="empty-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                        <path d="m16 16 4.2 4.2"></path>
+                    </svg>
+                </div>
+
+                <span class="section-label">NOT QUITE THE RIGHT MATCH</span>
+
+                <h3>No courses found</h3>
+
+                <p>
+                    No courses match your search.
+                    Try changing your search or filters.
+                </p>
+
+                <button type="button" id="emptyResetButton" class="reset-empty">
+                    Clear all filters
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <a href="#" class="brand footer-brand" aria-label="YSSE home">
+                <img src="images/ysse-logo.png" alt="YSSE — Stage of Innovation" class="brand-logo">
+            </a>
+
+            <p>Empowering young minds through learning and opportunity.</p>
+
+            <span class="footer-copy">© 2026 YSSE</span>
+
+        </div>
+    </footer>
+
+</body>
+</html>
